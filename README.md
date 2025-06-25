@@ -43,10 +43,10 @@ This project automates the extraction of CIE marks and attendance data from the 
     Select(driver.find_element(By.CLASS_NAME, "inputselectyear")).select_by_visible_text("ENTER_YEAR")
     ```
 
-    - Replace `"USN"` with your University Seat Number (e.g., `"01FE20BCS069"`).
-    - Replace `"dd"` with your birth day (e.g., `"14"`).
-    - Replace `"mm"` with your birth month (e.g., `"Feb"`).
-    - Replace `"yyyy"` with your birth year (e.g., `"2000"`).
+    - Replace `"ENTER_YOUR_USN"` with your USN (e.g., `"01FE20BCS069"`).
+    - Replace `"ENTER_DAY"` with your birth day (e.g., `"14"`).
+    - Replace `"ENTER_MONTH"` with your birth month (e.g., `"Feb"`).
+    - Replace `"ENTER_YEAR"` with your birth year (e.g., `"2000"`).
 
     **Example:**
     ```python
