@@ -26,7 +26,7 @@ This project automates the extraction of CIE marks and attendance data from the 
 
 1. **Clone this repository** and navigate to the project folder:
     ```sh
-    git clone <repo-url>
+    git clone https://github.com/a9irudhh/cie-scraper.git
     cd cie-scraper
     ```
 
