@@ -37,10 +37,10 @@ This project automates the extraction of CIE marks and attendance data from the 
     Find the following lines and replace the placeholders with your actual details:
 
     ```python
-    driver.find_element(By.ID, "username").send_keys("USN")
-    Select(driver.find_element(By.CLASS_NAME, "inputselectday")).select_by_visible_text("dd")
-    Select(driver.find_element(By.CLASS_NAME, "inputselectmon")).select_by_visible_text("mm")
-    Select(driver.find_element(By.CLASS_NAME, "inputselectyear")).select_by_visible_text("yyyy")
+    driver.find_element(By.ID, "username").send_keys("ENTER_YOUR_USN")
+    Select(driver.find_element(By.CLASS_NAME, "inputselectday")).select_by_visible_text("ENTER_DAY")
+    Select(driver.find_element(By.CLASS_NAME, "inputselectmon")).select_by_visible_text("ENTER_MONTH")
+    Select(driver.find_element(By.CLASS_NAME, "inputselectyear")).select_by_visible_text("ENTER_YEAR")
     ```
 
     - Replace `"USN"` with your University Seat Number (e.g., `"01FE20BCS069"`).
