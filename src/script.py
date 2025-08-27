@@ -16,11 +16,11 @@ driver = webdriver.Chrome(service=service, options=chrome_options)
 
 driver.get("https://parents.kletech.ac.in/")
 
-driver.find_element(By.ID, "username").send_keys("ENTER_YOUR_USN")  # Replace with your USN
+driver.find_element(By.ID, "username").send_keys("01FE22BCS264")  # Replace with your USN
 
-Select(driver.find_element(By.CLASS_NAME, "inputselectday")).select_by_visible_text("ENTER_DAY")
-Select(driver.find_element(By.CLASS_NAME, "inputselectmon")).select_by_visible_text("ENTER_MONTH")
-Select(driver.find_element(By.CLASS_NAME, "inputselectyear")).select_by_visible_text("ENTER_YEAR")
+Select(driver.find_element(By.CLASS_NAME, "inputselectday")).select_by_visible_text("09")
+Select(driver.find_element(By.CLASS_NAME, "inputselectmon")).select_by_visible_text("Feb")
+Select(driver.find_element(By.CLASS_NAME, "inputselectyear")).select_by_visible_text("2004")
 
 driver.find_element(By.CLASS_NAME, "cn-login-btn").click()
 
